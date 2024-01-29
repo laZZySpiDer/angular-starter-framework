@@ -1,0 +1,21 @@
+{
+  "name": "component-library",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "component-library/src",
+  "prefix": "angular-starter-framework",
+  "tags": [],
+  "projectType": "library",
+  "targets": {
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "component-library/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"]
+    }
+  }
+}
