@@ -1,5 +1,5 @@
-<!-- <angular-starter-framework-nx-welcome></angular-starter-framework-nx-welcome>
-<router-outlet></router-outlet> -->
+<!-- <router-outlet></router-outlet> -->
 
 
-APP COMPONENT 
+<lib-navbar [menuItems]="menuItems" (showCartEvent)="cartBtnClicked($event)"></lib-navbar>
+<lib-footer></lib-footer>

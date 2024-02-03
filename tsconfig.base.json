@@ -18,6 +18,7 @@
       "@angular-starter-framework/component-library": [
         "component-library/src/index.ts"
       ],
+      "lazzy-components/footer": ["lazzy-components/footer/src/index.ts"],
       "lazzy-components/navbar": ["lazzy-components/navbar/src/index.ts"]
     }
   },

@@ -1,0 +1,28 @@
+.navbar-container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 2em;
+
+    .logo-container{
+        width: 40%;
+        font-size: 2.5em;
+    }
+
+    .menu-items-container{
+
+        display: flex;
+        flex-direction: row;
+        margin-left: 1em;
+
+        .menu-item{
+            margin-left: 0.8em;
+        }
+    }
+    .search-container{
+    
+    }
+
+
+}

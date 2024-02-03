@@ -1,0 +1,17 @@
+<div class="navbar-container">
+    <div class="logo-container">
+        E-Commerce
+    </div>
+    <div class="search-container" *ngIf="showSearchBar">
+        <p-inputGroup>
+            <input type="text" pInputText placeholder="Search" />
+            <button type="button" pButton icon="pi pi-search" ></button>
+            </p-inputGroup>
+    </div>
+    <div class="menu-items-container">
+        <div class="menu-item" *ngFor="let menuItem of menuItems">{{menuItem.label | uppercase}}</div>
+    </div>
+    <div class="cart-container" *ngIf="showCart" ng-click>
+        <p-button icon="pi pi-shopping-cart" [rounded]="true" severity="secondary" [outlined]="true" (onClick)="showCartEventEmit($event)"></p-button>
+    </div>
+</div>
