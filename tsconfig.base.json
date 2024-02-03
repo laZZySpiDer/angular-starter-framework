@@ -17,7 +17,8 @@
     "paths": {
       "@angular-starter-framework/component-library": [
         "component-library/src/index.ts"
-      ]
+      ],
+      "lazzy-components/navbar": ["lazzy-components/navbar/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
